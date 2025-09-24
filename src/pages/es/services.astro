@@ -1,21 +1,21 @@
 ---
 // Importa los componentes necesarios
-import MainLayout from "@/layouts/MainLayout.astro";
-import MainSection from "@components/ui/blocks/MainSection.astro";
-import LeftSection from "@components/ui/blocks/LeftSection.astro";
-import RightSection from "@components/ui/blocks/RightSection.astro";
+import MainLayout from "../../layouts/MainLayout.astro";
+import MainSection from "../../components/ui/blocks/MainSection.astro";
+import LeftSection from "../../components/ui/blocks/LeftSection.astro";
+import RightSection from "../../components/ui/blocks/RightSection.astro";
 
 
 // Importa las imágenes necesarias
-import blueprints from "@images/a2.avif";
-import personWorking from "@images/a8.avif";
-import beforeAfter from "@images/a3.avif";
-import constructionWorkers from "@images/a4.avif";
-import aerialView from "@images/a5.avif";
-import usingTools from "@images/a2.avif";
-import progressBuilding from "@images/a6.avif";
-import underConstruction from "@images/a7.avif";
-import { SITE } from "@data/constants";
+import blueprints from "../../images/a2.avif";
+import personWorking from "../../images/a8.avif";
+import beforeAfter from "../../images/a3.avif";
+import constructionWorkers from "../../images/a4.avif";
+import aerialView from "../../images/a5.avif";
+import usingTools from "../../images/a2.avif";
+import progressBuilding from "../../images/a6.avif";
+import underConstruction from "../../images/a7.avif";
+import { SITE } from "../../data_files/constants";
 
 interface Article {
   isRightSection: boolean;
@@ -117,14 +117,14 @@ const ogTitle = "Servicios expertos | En Tank Global Solutions,";
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://tankglobalsolutions.com/es/services",
-    url: "https://tankglobalsolutions.com/es/services",
+    "@id": "https://tankglobalsolution.com/es/services",
+    url: "https://tankglobalsolution.com/es/services",
     name: "Servicios expertos |  En Tank Global Solutions",
     description:
       "En Tank Global Solutions, ofrecemos un portafolio completo de servicios para tanques ISO diseñados para acompañar cada fase de tu operación. Desde venta y arrendamiento hasta gestión integral de flotas y consultoría de proyectos, nuestras soluciones son confiables, eficientes y adaptadas a las demandas de cada industria.",
     isPartOf: {
       "@type": "WebSite",
-      url: "https://tankglobalsolutions.com/es",
+      url: "https://tankglobalsolution.com/es",
       name: "Tank Global Solutions",
       description:
         "Tank Global Solutions ofrece equipos de alta calidad y servicios expertos de construcción para cubrir todas las necesidades de tu proyecto.",

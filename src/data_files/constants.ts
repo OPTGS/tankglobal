@@ -7,7 +7,7 @@ export const SITE = {
   tagline: "Solving all your tank needs",
   description: "Reliable and innovative ISO tank solutions",
   description_short: "Reliable and innovative ISO tank solutions",
-  url: "http://tankglobalsolutions.com/",
+  url: "http://tankglobalsolution.com/",
   author: "Enmanoell Mosley",
 };
 

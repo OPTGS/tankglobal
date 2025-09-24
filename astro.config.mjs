@@ -7,7 +7,7 @@ import starlight from "@astrojs/starlight";
 import mdx from "@astrojs/mdx";
 
 export default defineConfig({
-  site: "https://tankglobalsolutions.com",
+  site: "https://tankglobalsolution.com",
   image: {
     domains: ["images.unsplash.com"],
   },
@@ -107,14 +107,14 @@ export default defineConfig({
     plugins: [tailwind()],
     resolve: {
       alias: {
-        '@': new URL('./src', import.meta.url).pathname,
-        '@components': new URL('./src/components', import.meta.url).pathname,
-        '@content': new URL('./src/content', import.meta.url).pathname,
-        '@data': new URL('./src/data_files', import.meta.url).pathname,
-        '@images': new URL('./src/images', import.meta.url).pathname,
-        '@scripts': new URL('./src/assets/scripts', import.meta.url).pathname,
-        '@styles': new URL('./src/assets/styles', import.meta.url).pathname,
-        '@utils': new URL('./src/utils', import.meta.url).pathname,
+        '@': path.resolve('./src'),
+        '@components': path.resolve('./src/components'),
+        '@content': path.resolve('./src/content'),
+        '@data': path.resolve('./src/data_files'),
+        '@images': path.resolve('./src/images'),
+        '@scripts': path.resolve('./src/assets/scripts'),
+        '@styles': path.resolve('./src/assets/styles'),
+        '@utils': path.resolve('./src/utils'),
       },
     },
   },

@@ -1,21 +1,21 @@
 ---
 // Import necessary components
-import MainLayout from "@/layouts/MainLayout.astro";
-import MainSection from "@components/ui/blocks/MainSection.astro";
-import LeftSection from "@components/ui/blocks/LeftSection.astro";
-import RightSection from "@components/ui/blocks/RightSection.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+import MainSection from "../components/ui/blocks/MainSection.astro";
+import LeftSection from "../components/ui/blocks/LeftSection.astro";
+import RightSection from "../components/ui/blocks/RightSection.astro";
 
 
 // Import necessary images
-import blueprints from "@images/a2.avif";
-import personWorking from "@images/a8.avif";
-import beforeAfter from "@images/a3.avif";
-import constructionWorkers from "@images/a4.avif";
-import aerialView from "@images/a5.avif";
-import usingTools from "@images/a2.avif";
-import progressBuilding from "@images/a6.avif";
-import underConstruction from "@images/a7.avif";
-import { SITE } from "@data/constants";
+import blueprints from "../images/a2.avif";
+import personWorking from "../images/a8.avif";
+import beforeAfter from "../images/a3.avif";
+import constructionWorkers from "../images/a4.avif";
+import aerialView from "../images/a5.avif";
+import usingTools from "../images/a2.avif";
+import progressBuilding from "../images/a6.avif";
+import underConstruction from "../images/a7.avif";
+import { SITE } from "../data_files/constants";
 
 interface Article {
   isRightSection: boolean;
@@ -117,14 +117,14 @@ const ogTitle = "Expert Services | At Tank Global Solutions,";
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://tankglobalsolutions.com/services",
-    url: "https://tankglobalsolutions.com/services",
+    "@id": "https://tankglobalsolution.com/services",
+    url: "https://tankglobalsolution.com/services",
     name: "Expert Services |  At Tank Global Solutions",
     description:
       "At Tank Global Solutions, we provide a full suite of ISO tank services designed to support every phase of your operations. From sales and leasing to full-scale fleet management and project consulting, our solutions are reliable, efficient, and tailored to each industry’s demands.",
     isPartOf: {
       "@type": "WebSite",
-      url: "https://tankglobalsolutions.com/",
+      url: "https://tankglobalsolution.com/",
       name: "Tank Global Solutions",
       description:
         "Tank Global Solutions offers top-tier hardware tools and expert construction services to meet all your project needs.",

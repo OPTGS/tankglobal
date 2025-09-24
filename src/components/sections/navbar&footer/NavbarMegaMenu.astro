@@ -1,13 +1,13 @@
 ---
 //Import relevant dependencies
-import ThemeIcon from "@components/ThemeIcon.astro";
-import NavLink from "@components/ui/links/NavLink.astro";
-import MegaMenuLink from "@components/ui/links/MegaMenuLink.astro";
+import ThemeIcon from "../../ThemeIcon.astro";
+import NavLink from "../../ui/links/NavLink.astro";
+import MegaMenuLink from "../../ui/links/MegaMenuLink.astro";
 import Authentication from "../misc/Authentication.astro";
-import enStrings from "@utils/navigation.ts";
-import frStrings from "@utils/es/navigation.ts";
-import BrandLogo from "@components/BrandLogo.astro";
-import LanguagePicker from "@components/ui/LanguagePicker.astro";
+import enStrings from "../../../utils/navigation.ts";
+import frStrings from "../../../utils/es/navigation.ts";
+import BrandLogo from "../../BrandLogo.astro";
+import LanguagePicker from "../../ui/LanguagePicker.astro";
 
 // Select the correct translation based on the page's lang prop:
 const strings = Astro.currentLocale === "es" ? frStrings : enStrings;
