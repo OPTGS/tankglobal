@@ -1,0 +1,54 @@
+{
+  "en": {
+    "title": "Contact Us",
+    "subtitle": "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our services.",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "address": {
+        "label": "Address",
+        "value": "1234 Tank Street, Houston, TX 77001"
+      },
+      "email": {
+        "label": "Email",
+        "value": "info@tankglobalsolution.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+1 (555) 123-4567"
+      }
+    }
+  },
+  "es": {
+    "title": "Contáctenos",
+    "subtitle": "¿Tiene preguntas o desea discutir un proyecto? Contáctenos y diseñemos juntos la solución perfecta con nuestros servicios de tanques ISO.",
+    "form": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje"
+    },
+    "info": {
+      "address": {
+        "label": "Dirección",
+        "value": "1234 Tank Street, Houston, TX 77001"
+      },
+      "email": {
+        "label": "Correo",
+        "value": "info@tankglobalsolution.com"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "value": "+1 (555) 123-4567"
+      }
+    }
+  }
+}

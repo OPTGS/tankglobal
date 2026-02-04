@@ -1,38 +1,38 @@
 {
   "title": "Simple, Transparent Pricing",
-  "subTitle": "Boost efficiency with screwfast's clear, value-driven plans.",
+  "subTitle": "Boost efficiency with Tank Global Solutions' clear, value-driven plans.",
   "badge": "Best value",
   "thirdOption": "Enterprise Solutions?",
   "btnText": "Get a Custom Quote",
 
   "starterKit": {
-    "name": "Starter Kit",
-    "description": "Best option for DIY projects",
-    "price": "49",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "name": "Standard Lease",
+    "description": "Best option for short-term needs",
+    "price": "Contact",
+    "cents": "",
+    "billingFrequency": "for pricing",
     "features": [
-      "Key hardware tools",
-      "Access to guides & tutorials",
+      "Standard ISO tanks",
+      "Basic maintenance included",
       "Standard support"
     ],
-    "purchaseBtnTitle": "Get the Starter Kit",
-    "purchaseLink": "#"
+    "purchaseBtnTitle": "Request Quote",
+    "purchaseLink": "/contact"
   },
 
   "professionalToolbox": {
-    "name": "Professional Toolbox",
-    "description": "Best for large scale uses",
-    "price": "89",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "name": "Fleet Management",
+    "description": "Best for large scale operations",
+    "price": "Contact",
+    "cents": "",
+    "billingFrequency": "for pricing",
     "features": [
-      "Premium tool selection",
+      "Full fleet management",
       "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
+      "Real-time tracking",
+      "Volume discounts"
     ],
-    "purchaseBtnTitle": "Get the Professional Toolbox",
-    "purchaseLink": "#"
+    "purchaseBtnTitle": "Request Quote",
+    "purchaseLink": "/contact"
   }
 }

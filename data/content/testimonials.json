@@ -1,0 +1,42 @@
+{
+  "en": [
+    {
+      "content": "Since partnering with Tank Global Solutions, the efficiency of our logistics operations has improved significantly. The quality of the ISO tanks and technical support are unmatched.",
+      "author": "Jason Clark",
+      "role": "Operations Director | LogiChem",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1374&auto=format&fit=crop"
+    },
+    {
+      "content": "As a plant manager, I always look for high-quality equipment that ensures the safety of our operations. Tank Global's cryogenic tanks have been an excellent investment for our company.",
+      "author": "Maria Gonzalez",
+      "role": "Plant Manager | CryoTech Industries",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1376&auto=format&fit=crop"
+    },
+    {
+      "content": "We've been in the chemical transport industry for over 10 years, and I can sincerely say that Tank Global Solutions' ISO tanks are some of the best we've used. The after-sales service is impeccable.",
+      "author": "Richard Kim",
+      "role": "CEO | TransQuim",
+      "avatar": "https://images.unsplash.com/photo-1474176857210-7287d38d27c6?q=80&w=1470&auto=format&fit=crop"
+    }
+  ],
+  "es": [
+    {
+      "content": "Desde que comenzamos a trabajar con Tank Global Solutions, la eficiencia en nuestras operaciones logísticas ha mejorado significativamente. La calidad de los tanques ISO y el soporte técnico son incomparables.",
+      "author": "Carlos Mendoza",
+      "role": "Director de Operaciones | LogiChem",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1374&auto=format&fit=crop"
+    },
+    {
+      "content": "Como gerente de planta, siempre busco equipos de alta calidad que garanticen la seguridad de nuestras operaciones. Los tanques criogénicos de Tank Global han sido una excelente inversión para nuestra empresa.",
+      "author": "María González",
+      "role": "Gerente de Planta | CryoTech Industries",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1376&auto=format&fit=crop"
+    },
+    {
+      "content": "Llevamos más de 10 años en la industria del transporte químico y puedo decir que los tanques ISO de Tank Global Solutions son de los mejores que hemos utilizado. El servicio postventa es impecable.",
+      "author": "Roberto Kim",
+      "role": "Director General | TransQuim",
+      "avatar": "https://images.unsplash.com/photo-1474176857210-7287d38d27c6?q=80&w=1470&auto=format&fit=crop"
+    }
+  ]
+}

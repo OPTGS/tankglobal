@@ -1,0 +1,36 @@
+{
+  "en": [
+    {
+      "heading": "Added Value",
+      "content": "We go beyond the standard, providing meaningful, long-term solutions that make a difference.",
+      "svg": "groups"
+    },
+    {
+      "heading": "High Expertise",
+      "content": "Our team has deep industry knowledge and the technical skills to solve complex ISO tank challenges.",
+      "svg": "verified"
+    },
+    {
+      "heading": "Customer Focused",
+      "content": "Every solution is tailored to your needs with personalized service and clear, ongoing communication.",
+      "svg": "books"
+    }
+  ],
+  "es": [
+    {
+      "heading": "Valor agregado",
+      "content": "Vamos más allá del estándar, agregando soluciones que realmente hacen la diferencia.",
+      "svg": "groups"
+    },
+    {
+      "heading": "Alta especialización",
+      "content": "Contamos con un equipo experto con profundo conocimiento del sector de tanques ISO.",
+      "svg": "verified"
+    },
+    {
+      "heading": "Enfoque en el cliente",
+      "content": "Cada solución se diseña en torno a tus necesidades, con atención personalizada y comunicación clara en todo momento.",
+      "svg": "books"
+    }
+  ]
+}

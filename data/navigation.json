@@ -1,0 +1,48 @@
+{
+  "en": {
+    "navbar": [
+      { "name": "Home", "url": "/" },
+      { "name": "Services", "url": "/services" },
+      { "name": "Products", "url": "/products" },
+      { "name": "Contact", "url": "/contact" }
+    ],
+    "footer": [
+      {
+        "section": "Company",
+        "links": [
+          { "name": "Services", "url": "/services" },
+          { "name": "Products", "url": "/products" }
+        ]
+      },
+      {
+        "section": "Support",
+        "links": [
+          { "name": "Contact", "url": "/contact" }
+        ]
+      }
+    ]
+  },
+  "es": {
+    "navbar": [
+      { "name": "Inicio", "url": "/es" },
+      { "name": "Servicios", "url": "/es/services" },
+      { "name": "Productos", "url": "/es/products" },
+      { "name": "Contacto", "url": "/es/contact" }
+    ],
+    "footer": [
+      {
+        "section": "Empresa",
+        "links": [
+          { "name": "Servicios", "url": "/es/services" },
+          { "name": "Productos", "url": "/es/products" }
+        ]
+      },
+      {
+        "section": "Soporte",
+        "links": [
+          { "name": "Contacto", "url": "/es/contact" }
+        ]
+      }
+    ]
+  }
+}

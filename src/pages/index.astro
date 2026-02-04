@@ -9,13 +9,14 @@ import FeaturesNavs from "../components/sections/features/FeaturesNavs.astro";
 import TestimonialsSection from "../components/sections/testimonials/TestimonialsSection.astro";
 import FAQ from "../components/sections/misc/FAQ.astro";
 import heroImage from "../images/hero-tanques.avif";
-import faqs from "../data_files/faqs.json";
-import features from "../data_files/features.json";
+import { getFaqs, getFeatures, partnersData } from "@data";
 import featureImage from "../images/tanques.avif";
 import construction from "../images/card1.avif";
 import tools from "../images/card2.avif";
 import dashboard from "../images/card3.avif";
-import { partnersData } from "../data_files/constants";
+
+const faqs = getFaqs('en');
+const features = getFeatures('en');
 
 ---
 <MainLayout>
@@ -28,12 +29,8 @@ import { partnersData } from "../data_files/constants";
     primaryBtnURL="/services"
     secondaryBtn="Contact Us"
     secondaryBtnURL="/contact"
-    withReview={true}
-    rating=`<span class="font-bold">4.8</span> / 5`
-    starCount={4}
-    reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
     src={heroImage}
-    alt="Stack of screwfast product boxes containing assorted hardware tools"
+    alt="Tank Global Solutions ISO tanks"
   />
 
   <ClientsSection

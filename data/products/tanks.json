@@ -1,0 +1,97 @@
+[
+  {
+    "id": "t11-tank",
+    "name": "T11 ISO Tank Container",
+    "category": "Standard Liquid",
+    "image": "/images/card1.avif",
+    "shortDescription": {
+      "en": "Versatile ISO tank for transporting non-hazardous and mildly corrosive liquids.",
+      "es": "Tanque ISO versátil para transporte de líquidos no peligrosos y ligeramente corrosivos."
+    },
+    "specs": {
+      "capacity": "26,000 liters",
+      "dimensions": "20ft standard",
+      "material": "Stainless Steel 316L",
+      "pressure": "4 bar",
+      "temperature": "-40°C to +130°C"
+    },
+    "applications": ["Food grade products", "Chemicals", "Fuels", "Oils"],
+    "featured": true
+  },
+  {
+    "id": "t50-gas-tank",
+    "name": "T50 Gas Tank Container",
+    "category": "Gas",
+    "image": "/images/card2.avif",
+    "shortDescription": {
+      "en": "Specialized tank for transporting liquefied gases under pressure.",
+      "es": "Tanque especializado para transporte de gases licuados bajo presión."
+    },
+    "specs": {
+      "capacity": "24,000 liters",
+      "dimensions": "20ft standard",
+      "material": "Carbon Steel",
+      "pressure": "22 bar",
+      "temperature": "-40°C to +50°C"
+    },
+    "applications": ["LPG", "Ammonia", "Refrigerants", "Butadiene"],
+    "featured": true
+  },
+  {
+    "id": "cryogenic-20",
+    "name": "20ft Cryogenic Tank",
+    "category": "Cryogenic",
+    "image": "/images/card3.avif",
+    "shortDescription": {
+      "en": "Advanced cryogenic tank for extremely low-temperature liquid transport.",
+      "es": "Tanque criogénico avanzado para transporte de líquidos a temperaturas extremadamente bajas."
+    },
+    "specs": {
+      "capacity": "21,000 liters",
+      "dimensions": "20ft standard",
+      "material": "Stainless Steel 304",
+      "pressure": "10 bar",
+      "temperature": "-196°C to +50°C"
+    },
+    "applications": ["LNG", "Nitrogen", "Oxygen", "Argon", "CO2"],
+    "featured": true
+  },
+  {
+    "id": "cryogenic-40",
+    "name": "40ft Cryogenic Tank",
+    "category": "Cryogenic",
+    "image": "/images/a2.avif",
+    "shortDescription": {
+      "en": "High-capacity cryogenic tank for large-scale liquid gas transport.",
+      "es": "Tanque criogénico de alta capacidad para transporte a gran escala de gases líquidos."
+    },
+    "specs": {
+      "capacity": "43,500 liters",
+      "dimensions": "40ft standard",
+      "material": "Stainless Steel 304",
+      "pressure": "10 bar",
+      "temperature": "-196°C to +50°C"
+    },
+    "applications": ["LNG", "Ethylene", "Nitrogen", "Oxygen"],
+    "featured": false
+  },
+  {
+    "id": "asphalt-20",
+    "name": "20ft Asphalt Container",
+    "category": "Heated",
+    "image": "/images/a3.avif",
+    "shortDescription": {
+      "en": "Insulated and heated tank for transporting bitumen and asphalt.",
+      "es": "Tanque aislado y calentado para transporte de betún y asfalto."
+    },
+    "specs": {
+      "capacity": "24,000 liters",
+      "dimensions": "20ft standard",
+      "material": "Carbon Steel",
+      "pressure": "2.5 bar",
+      "temperature": "+50°C to +230°C"
+    },
+    "applications": ["Asphalt", "Bitumen", "Heavy oils"],
+    "featured": false
+  }
+]

@@ -23,7 +23,7 @@ export default defineConfig({
       },
     }),
     starlight({
-      title: "screwfast Docs",
+      title: "Tank Global Docs",
       defaultLocale: "root",
       locales: {
         root: { label: "English", lang: "en" },
@@ -65,7 +65,7 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/mearashadowfax/screwfast",
+          href: "https://github.com/tankglobalsolution",
         },
       ],
       disable404Route: true,
@@ -82,14 +82,14 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             property: "og:image",
-            content: "https://screwfast.uk/social.webp",
+            content: "https://tankglobalsolution.com/social.webp",
           },
         },
         {
           tag: "meta",
           attrs: {
             property: "twitter:image",
-            content: "https://screwfast.uk/social.webp",
+            content: "https://tankglobalsolution.com/social.webp",
           },
         },
       ],
@@ -110,7 +110,8 @@ export default defineConfig({
         '@': path.resolve('./src'),
         '@components': path.resolve('./src/components'),
         '@content': path.resolve('./src/content'),
-        '@data': path.resolve('./src/data_files'),
+        '@data': path.resolve('./data/index.ts'),
+        '@data/mega_link': path.resolve('./src/data_files/mega_link.ts'),
         '@images': path.resolve('./src/images'),
         '@scripts': path.resolve('./src/assets/scripts'),
         '@styles': path.resolve('./src/assets/styles'),

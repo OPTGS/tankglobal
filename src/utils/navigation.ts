@@ -7,26 +7,24 @@ const navBarLinks = [
 // An array of links for footer
 const footerLinks = [
   {
-    section: "",
+    section: "Company",
     links: [
-      { name: "", url: "/services" },
+      { name: "Services", url: "/services" },
+      { name: "Products", url: "/products" },
     ],
   },
   {
-    section: "",
+    section: "Support",
     links: [
-      { name: "", url: "/contact" },
-
+      { name: "Contact", url: "/contact" },
     ],
   },
 ];
 // An object of links for social icons
 const socialLinks = {
-  facebook: "https://www.facebook.com/",
-  x: "https://twitter.com/",
-  github: "https://github.com/mearashadowfax/screwfast",
-  google: "https://www.google.com/",
-  slack: "https://slack.com/",
+  facebook: "#",
+  x: "#",
+  google: "#",
 };
 
 export default {

@@ -66,10 +66,10 @@ type StatProps = {
         <ul
           class="grid grid-cols-2 divide-x-2 divide-y-2 divide-neutral-300 overflow-hidden dark:divide-neutral-700"
         >
-          <!-- Generate a list item for each stat in the statistics array by mapping over the array. -->
+          {/* Generate a list item for each stat in the statistics array by mapping over the array. */}
           {
-            statistics.map((stat, index) => (
-            <StatsGrid count={stat.count} description={stat.description} index={index}/>
+            statistics.map((stat) => (
+            <StatsGrid count={stat.count} description={stat.description}/>
             ))
           }
         </ul>

@@ -5,7 +5,7 @@ import ProductTabBtn from "@components/ui/buttons/ProductTabBtn.astro";
 import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
-import { SITE } from "@data/constants";
+import { SITE } from "@data";
 
 // Global declaration for gsap animation library
 declare global {
@@ -32,7 +32,7 @@ const { product } = Astro.props;
 
 const pageTitle: string = `${product.data.title} | ${SITE.title}`;
 const metaDescription = product.data.description;
-const ogTitle = `${product.data.title} | Outils Matériels | screwfast`;
+const ogTitle = `${product.data.title} | Productos | ${SITE.title}`;
 ---
 
 <MainLayout
@@ -43,12 +43,12 @@ const ogTitle = `${product.data.title} | Outils Matériels | screwfast`;
   structuredData={{
     "@context": "https://schema.org",
     "@type": "Product",
-    "@id": `https://screwfast.uk/es/products/${product.data.title.toLowerCase().replace(/\s+/g, "-")}`,
+    "@id": `https://tankglobalsolution.com/es/products/${product.data.title.toLowerCase().replace(/\s+/g, "-")}`,
     name: product.data.title,
     description: product.data.description,
     brand: {
       "@type": "Brand",
-      name: "screwfast",
+      name: SITE.title,
     },
     inLanguage: "es",
   }}

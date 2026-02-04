@@ -6,7 +6,7 @@ import enStrings from "../../../utils/navigation.ts";
 import frStrings from "../../../utils/es/navigation";
 import Icon from "../../ui/icons/Icon.astro";
 import BrandLogo from "../../BrandLogo.astro";
-import { SITE } from "../../../data_files/constants";
+import { SITE } from "@data";
 
 // Select the correct translation based on the page's lang prop:
 const strings = Astro.currentLocale === "es" ? frStrings : enStrings;

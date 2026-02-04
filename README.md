@@ -46,7 +46,7 @@ This creates a `dist/` directory with your built site (configurable via [outDir 
 
 ## Project Structure
 
-screwfast organizes modular components, content, and layouts to streamline development and content management.
+Tank Global website organizes modular components, content, and layouts to streamline development and content management.
 
 ```md
 

@@ -1,0 +1,140 @@
+{
+  "en": {
+    "hero": {
+      "title": "Tank Global <span class=\"text-blue-500 dark:text-blue-400\">Solutions</span>",
+      "subtitle": "Solving all your tank needs. Over 20 years delivering reliable and innovative ISO tank solutions. We are your strategic partner for operations, sales, leasing, and specialized consulting.",
+      "primaryButton": {
+        "text": "Start Exploring",
+        "url": "/services"
+      },
+      "secondaryButton": {
+        "text": "Contact Us",
+        "url": "/contact"
+      }
+    },
+    "clients": {
+      "title": "Trusted by Industry Leaders",
+      "subtitle": "Experience the reliability chosen by industry giants."
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "subtitle": "At Tank Global Solutions, we are committed to delivering true value to our clients through precision-engineered ISO tank solutions backed by efficiency and forward-thinking. Our mission is simple: to be the go-to provider of specialized tank solutions that exceed expectations and deliver peace of mind."
+    },
+    "features": {
+      "title": "Customize <span class=\"text-blue-500 dark:text-blue-400\">Tank Global Solutions</span> offerings to perfectly suit your ISO tank logistics and project needs.",
+      "tabs": [
+        {
+          "heading": "Specialized Expertise",
+          "content": "Rely on over 20 years of experience in ISO tank solutions. Our team of industry experts ensures precision, compliance, and efficiency in every project we handle.",
+          "icon": "tools"
+        },
+        {
+          "heading": "Smart Project Management",
+          "content": "Stay in control with our seamless service workflows and proactive fleet management solutions, tailored to fit the specific logistics of ISO tanks.",
+          "icon": "dashboard"
+        },
+        {
+          "heading": "End-to-End Solutions",
+          "content": "From consulting to equipment delivery, we offer a complete range of ISO tank services. Count on us for reliable execution and long-term support.",
+          "icon": "house"
+        }
+      ]
+    },
+    "offices": {
+      "title": "Our Offices",
+      "subtitle": "Tank Global Solutions has an international presence with strategically located offices across the Americas, Europe, and Asia to better serve our global clients.",
+      "quote": {
+        "text": "Our international network enables us to deliver efficient, customized ISO tank solutions worldwide—always with a local, customer-focused approach.",
+        "author": "Samantha Ruiz",
+        "role": "Chief Operating Officer"
+      },
+      "locations": [
+        {
+          "region": "Americas",
+          "countries": "🇺🇸 United States (US) 🇲🇽 Mexico (MX) 🇬🇹 Guatemala (GT) 🇪🇨 Ecuador (EC)"
+        },
+        {
+          "region": "Europe",
+          "countries": "🇳🇱 Netherlands (NL)"
+        },
+        {
+          "region": "Asia",
+          "countries": "🇨🇳 China (CN) 🇯🇵 Japan (JP)"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Request a Quote",
+      "subtitle": "20 Years solving all your tank needs..."
+    }
+  },
+  "es": {
+    "hero": {
+      "title": "Tank Global <span class=\"text-blue-500 dark:text-blue-400\">Solutions</span>",
+      "subtitle": "Solving all your tank needs. Más de 20 años brindando soluciones confiables e innovadoras para el manejo de tanques ISO. Somos tu aliado estratégico para operaciones, ventas, arrendamiento y consultoría especializada.",
+      "primaryButton": {
+        "text": "Empieza a explorar",
+        "url": "/es/services"
+      },
+      "secondaryButton": {
+        "text": "Contáctenos",
+        "url": "/es/contact"
+      }
+    },
+    "clients": {
+      "title": "Con la confianza de los líderes de la industria",
+      "subtitle": "Descubra la confiabilidad elegida por los gigantes de la industria."
+    },
+    "philosophy": {
+      "title": "Nuestra Filosofía",
+      "subtitle": "En Tank Global Solutions, estamos comprometidos con aportar valor real a nuestros clientes a través de soluciones de tanques ISO diseñadas con precisión, eficiencia y visión a futuro. Nuestra misión es simple: convertirnos en la fuente de referencia de soluciones especializadas que superen expectativas y garanticen tranquilidad."
+    },
+    "features": {
+      "title": "Personaliza las soluciones de <span class=\"text-blue-500 dark:text-blue-400\">Tank Global Solutions</span> para adaptarlas perfectamente a tus necesidades logísticas y de proyectos con tanques ISO.",
+      "tabs": [
+        {
+          "heading": "Experiencia Especializada",
+          "content": "Confía en más de 20 años de experiencia en soluciones con tanques ISO. Nuestro equipo experto garantiza precisión, cumplimiento y eficiencia en cada proyecto.",
+          "icon": "tools"
+        },
+        {
+          "heading": "Gestión Inteligente de Proyectos",
+          "content": "Mantén el control con nuestros flujos de trabajo eficientes y la gestión proactiva de flotas, adaptados a las exigencias logísticas del sector de tanques ISO.",
+          "icon": "dashboard"
+        },
+        {
+          "heading": "Soluciones Integrales",
+          "content": "Desde la consultoría hasta la entrega del equipo, ofrecemos una gama completa de servicios. Puedes contar con nosotros para una ejecución confiable y un soporte duradero.",
+          "icon": "house"
+        }
+      ]
+    },
+    "offices": {
+      "title": "Nuestras Oficinas",
+      "subtitle": "Tank Global Solutions tiene presencia internacional con oficinas estratégicamente ubicadas en América, Europa y Asia para atender mejor a nuestros clientes globales.",
+      "quote": {
+        "text": "Nuestra red internacional nos permite brindar soluciones eficientes y personalizadas a nivel global, siempre con un enfoque local y cercano al cliente.",
+        "author": "Samantha Ruiz",
+        "role": "Directora de Proyectos"
+      },
+      "locations": [
+        {
+          "region": "América",
+          "countries": "🇺🇸 Estados Unidos (US) 🇲🇽 México (MX) 🇬🇹 Guatemala (GT) 🇪🇨 Ecuador (EC)"
+        },
+        {
+          "region": "Europa",
+          "countries": "🇳🇱 Países Bajos (NL)"
+        },
+        {
+          "region": "Asia",
+          "countries": "🇨🇳 China (CN) 🇯🇵 Japón (JP)"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Solicitar una cotización",
+      "subtitle": "20 años resolviendo todas tus necesidades de tanques..."
+    }
+  }
+}

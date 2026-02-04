@@ -7,18 +7,17 @@ import ClientsSection from "../../components/sections/landing/ClientsSection.ast
 import FeaturesGeneral from "../../components/sections/features/FeaturesGeneral.astro";
 import FeaturesNavs from "../../components/sections/features/FeaturesNavs.astro";
 import TestimonialsSection from "../../components/sections/testimonials/TestimonialsSection.astro";
-import PricingSection from "../../components/sections/pricing/PricingSection.astro";
 import FAQ from "../../components/sections/misc/FAQ.astro";
 import heroImage from "../../images/hero-tanques.avif";
-import faqs from "../../data_files/es/faqs.json";
-import features from "../../data_files/es/features.json";
-import pricing from "../../data_files/es/pricing.json";
+import { getFaqs, getFeatures, partnersData } from "@data";
 import featureImage from "../../images/tanques.avif";
 import construction from "../../images/card1.avif";
 import tools from "../../images/card2.avif";
 import dashboard from "../../images/card3.avif";
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { partnersData } from "../../data_files/constants";
+
+const faqs = getFaqs('es');
+const features = getFeatures('es');
 
 ---
 
@@ -32,12 +31,8 @@ import { partnersData } from "../../data_files/constants";
     primaryBtnURL={getRelativeLocaleUrl("es", "services")}
     secondaryBtn="Contactenos"
     secondaryBtnURL={getRelativeLocaleUrl("es", "contact")}
-    withReview={true}
-    rating=`<span class="font-bold">4.8</span> / 5`
-    starCount={4}
-    reviews=`À partir de plus de <span class="font-bold">12,8k</span> avis`
     src={heroImage}
-    alt="Pile de boîtes de produits screwfast contenant des outils matériels assortis"
+    alt="Tanques ISO de Tank Global Solutions"
   />
 
   <ClientsSection
@@ -63,7 +58,7 @@ import { partnersData } from "../../data_files/constants";
           "Confía en más de 20 años de experiencia en soluciones con tanques ISO. Nuestro equipo experto garantiza precisión, cumplimiento y eficiencia en cada proyecto.",
         svg: "tools",
         src: tools,
-        alt: "Équipement lourd jaune et noir sur un champ d'herbe brune",
+        alt: "Equipo especializado trabajando con tanques ISO",
         first: true,
       },
       {
@@ -72,7 +67,7 @@ import { partnersData } from "../../data_files/constants";
           "Mantén el control con nuestros flujos de trabajo eficientes y la gestión proactiva de flotas, adaptados a las exigencias logísticas del sector de tanques ISO.",
         svg: "dashboard",
         src: dashboard,
-        alt: "Capture d'écran ou représentation graphique du tableau de bord intuitif",
+        alt: "Captura de pantalla del panel de gestión intuitivo",
         second: true,
       },
       {
@@ -81,7 +76,7 @@ import { partnersData } from "../../data_files/constants";
           "Desde la consultoría hasta la entrega del equipo, ofrecemos una gama completa de servicios. Puedes contar con nosotros para una ejecución confiable y un soporte duradero.",
         svg: "house",
         src: construction,
-        alt: "Structure métallique grise d'un bâtiment près d'une grue à tour pendant la journée",
+        alt: "Estructura metálica de tanque ISO en construcción",
       },
     ]}
   />
@@ -122,7 +117,7 @@ import { partnersData } from "../../data_files/constants";
 
   <HeroSectionAlt
     title="Solicitar una cotización"
-    subTitle="20 Years solving all your tank needs..."
-    url="/contact"
+    subTitle="20 años resolviendo todas tus necesidades de tanques..."
+    url="/es/contact"
   />
 </MainLayout>

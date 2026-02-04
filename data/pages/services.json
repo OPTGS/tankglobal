@@ -1,0 +1,104 @@
+{
+  "en": {
+    "title": "Services",
+    "subtitle": "Over 20 years of experience solving all your ISO tank needs.",
+    "sections": [
+      {
+        "title": "Comprehensive ISO Tank Services",
+        "description": "We provide end-to-end ISO tank solutions including logistics, cleaning, maintenance, and compliance oversight. Our operations are tailored to ensure your tank systems run efficiently and meet international standards."
+      },
+      {
+        "title": "Fleet Management & Maintenance",
+        "description": "Our fleet management services include real-time tracking, preventive maintenance, and asset optimization. Whether managing a single tank or a large-scale operation, we maximize performance and extend equipment lifespan."
+      },
+      {
+        "title": "Sales & Leasing Solutions",
+        "description": "We offer flexible purchasing and leasing options on a wide range of ISO tanks, including standard liquid, gas, and cryogenic models. Our global inventory ensures fast delivery and customized options to suit your needs."
+      },
+      {
+        "title": "Spare Parts & Technical Support",
+        "description": "Get access to a full catalog of certified spare parts and accessories. Backed by technical experts, we help minimize downtime and keep your ISO tank operations running smoothly."
+      },
+      {
+        "title": "Consulting & Custom Projects",
+        "description": "Our expert team offers tailored consulting services and project planning for cryogenic, chemical, or energy-related tank operations. From feasibility studies to full execution—we design with precision and scalability in mind."
+      }
+    ],
+    "tankTypes": {
+      "title": "Tank Types & Equipment",
+      "categories": [
+        {
+          "name": "Standard Liquid Tanks",
+          "applications": ["Food grade", "Chemicals", "Mining", "Fuels"]
+        },
+        {
+          "name": "Gas Tanks",
+          "applications": ["Refrigerants", "LPG", "Pharmaceuticals"]
+        },
+        {
+          "name": "Cryogenic Tanks",
+          "applications": ["CO₂ (Food & Beverage)", "Ethane (Oil & Gas)", "O₂ (Medical)", "Nitrogen (Mining)", "Argon (Electronics)", "Natural Gas (Energy)"]
+        }
+      ],
+      "equipment": [
+        "20' Cryogenic Tank",
+        "40' Cryogenic Tank",
+        "20' Asphalt Container",
+        "40' Asphalt Tank",
+        "20' Standard Tank",
+        "20' Gas Tank"
+      ]
+    }
+  },
+  "es": {
+    "title": "Servicios",
+    "subtitle": "Más de 20 años de experiencia resolviendo todas tus necesidades de tanques ISO.",
+    "sections": [
+      {
+        "title": "Servicios integrales para tanques ISO",
+        "description": "Brindamos soluciones de tanque ISO de principio a fin, incluyendo logística, limpieza, mantenimiento y supervisión de cumplimiento. Nuestras operaciones están diseñadas para garantizar que tus sistemas de tanques funcionen eficientemente y cumplan con los estándares internacionales."
+      },
+      {
+        "title": "Gestión y mantenimiento de flotas",
+        "description": "Nuestros servicios de gestión de flotas incluyen rastreo en tiempo real, mantenimiento preventivo y optimización de activos. Ya sea que gestiones un solo tanque o una operación a gran escala, maximizamos el rendimiento y extendemos la vida útil del equipo."
+      },
+      {
+        "title": "Soluciones de venta y arrendamiento",
+        "description": "Ofrecemos opciones flexibles de compra y arrendamiento en una amplia gama de tanques ISO, incluyendo modelos estándar para líquidos, gases y criogénicos. Nuestro inventario global asegura entregas rápidas y opciones personalizadas según tus necesidades."
+      },
+      {
+        "title": "Refacciones y soporte técnico",
+        "description": "Accede a un catálogo completo de refacciones y accesorios certificados. Con el respaldo de expertos técnicos, te ayudamos a minimizar tiempos muertos y mantener la operación de tus tanques ISO funcionando sin problemas."
+      },
+      {
+        "title": "Consultoría y proyectos personalizados",
+        "description": "Nuestro equipo de expertos ofrece servicios de consultoría a medida y planeación de proyectos para operaciones de tanques criogénicos, químicos o energéticos. Desde estudios de factibilidad hasta la ejecución total, diseñamos con precisión y escalabilidad en mente."
+      }
+    ],
+    "tankTypes": {
+      "title": "Tipos de tanques y equipos",
+      "categories": [
+        {
+          "name": "Tanques estándar para líquidos",
+          "applications": ["Grado alimenticio", "Químicos", "Minería", "Combustibles"]
+        },
+        {
+          "name": "Tanques para gases",
+          "applications": ["Refrigerantes", "GLP", "Farmacéuticos"]
+        },
+        {
+          "name": "Tanques criogénicos",
+          "applications": ["CO₂ (Alimentos y bebidas)", "Etano (Petróleo y gas)", "O₂ (Médico)", "Nitrógeno (Minería)", "Argón (Electrónica)", "Gas natural (Energía)"]
+        }
+      ],
+      "equipment": [
+        "Tanque criogénico de 20'",
+        "Tanque criogénico de 40'",
+        "Contenedor de asfalto de 20'",
+        "Tanque de asfalto de 40'",
+        "Tanque estándar de 20'",
+        "Tanque de gas de 20'"
+      ]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 ---
 // Import section components
-import { SITE } from "@data/constants";
+import { SITE } from "@data";
 import MainLayout from "@/layouts/MainLayout.astro";
 import { Image } from "astro:assets";
 import { getCollection, render } from "astro:content";
@@ -49,12 +49,12 @@ const ogTitle = `${post.data.title} | Insights | ${SITE.title}`;
       name: SITE.title,
       logo: {
         "@type": "ImageObject",
-        url: "https://screwfast.uk/favicon.ico",
+        url: "https://tankglobalsolution.com/favicon.ico",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://screwfast.uk/es/insights/${post.id.replace(/^es\//, "")}`,
+      "@id": `https://tankglobalsolution.com/es/insights/${post.id.replace(/^es\//, "")}`,
     },
     inLanguage: "es",
   }}
@@ -207,7 +207,7 @@ const ogTitle = `${post.data.title} | Insights | ${SITE.title}`;
     }
   };
 
-  document.addEventListener("DOMContentLoaded", (event) => {
+  document.addEventListener("DOMContentLoaded", () => {
     window.onscroll = onScroll;
 
     // Set initial width of progress bar

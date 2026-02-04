@@ -1,6 +1,6 @@
 ---
 import { getImage } from "astro:assets";
-import { OG, SEO, SITE } from "@data/constants";
+import { OG, SEO, SITE } from "@data";
 import faviconSvgSrc from "@images/icon.svg";
 import faviconSrc from "@images/icon.png";
 
@@ -34,7 +34,6 @@ const ogDescription = customDescription || OG.description;
 const URL = `${Astro.site}`; // Set the website URL in astro.config.mjs
 const author = SITE.author;
 const canonical = Astro.url.href;
-const basePath = Astro.url.pathname;
 const socialImageRes = await getImage({
   src: OG.image,
   width: 1200,
@@ -47,7 +46,7 @@ const languages: { [key: string]: string } = {
   es: "es",
 };
 
-function createHref(lang: string, prefix: string, path: string): string {
+function createHref(_lang: string, prefix: string, path: string): string {
   // Remove any existing language prefix
   const cleanPath = path.replace(/^\/(es|en)\//, "/");
 
@@ -87,6 +86,7 @@ const appleTouchIcon = await getImage({
      https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data */}{
   structuredData && (
     <script
+      is:inline
       type="application/ld+json"
       set:html={JSON.stringify(structuredData)}
     />

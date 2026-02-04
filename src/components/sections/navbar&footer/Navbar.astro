@@ -4,12 +4,12 @@ import ThemeIcon from "../../ThemeIcon.astro";
 import NavLink from "../../ui/links/NavLink.astro";
 import Authentication from "../misc/Authentication.astro";
 import enStrings from "../../../utils/navigation.ts";
-import frStrings from "../../../utils/es/navigation.ts";
+import esStrings from "../../../utils/es/navigation.ts";
 import BrandLogo from "../../BrandLogo.astro";
 import LanguagePicker from "../../ui/LanguagePicker.astro";
 
 // Select the correct translation based on the page's lang prop:
-const strings = Astro.currentLocale === "es" ? frStrings : enStrings;
+const strings = Astro.currentLocale === "es" ? esStrings : enStrings;
 const homeUrl = Astro.currentLocale === "es" ? "/es" : "/";
 ---
 

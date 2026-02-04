@@ -1,0 +1,60 @@
+{
+  "en": {
+    "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+    "faqs": [
+      {
+        "question": "What types of ISO tanks do you offer?",
+        "answer": "We offer a wide range of ISO tanks, including standard liquid tanks, gas tanks, and cryogenic tanks, tailored for industries like food & beverage, chemical, mining, medical, and energy."
+      },
+      {
+        "question": "Do you provide leasing options for ISO tanks?",
+        "answer": "Yes. We offer flexible leasing plans for various ISO tank models, including short-term and long-term options based on your project needs."
+      },
+      {
+        "question": "Can you assist with ISO tank maintenance and fleet management?",
+        "answer": "Absolutely. We provide comprehensive fleet management and maintenance services to ensure optimal performance and safety of your ISO tank operations."
+      },
+      {
+        "question": "What regions do you operate in?",
+        "answer": "We have offices in the US, Mexico, Guatemala, Ecuador, Netherlands, China, and Japan, enabling us to serve clients worldwide."
+      },
+      {
+        "question": "Do you sell ISO tank parts and accessories?",
+        "answer": "Yes, we provide high-quality spare parts and accessories for ISO tanks to support operational continuity and minimize downtime."
+      },
+      {
+        "question": "Can you help us choose the right tank for our application?",
+        "answer": "Our experts offer consulting services to help you select the most efficient and cost-effective ISO tank solution for your specific industry and needs."
+      }
+    ]
+  },
+  "es": {
+    "subTitle": "Pregúntenos cualquier cosa sobre nuestra marca y productos y obtenga respuestas objetivas.",
+    "faqs": [
+      {
+        "question": "¿Qué tipos de tanques ISO ofrecen?",
+        "answer": "Ofrecemos una amplia gama de tanques ISO, incluyendo tanques líquidos estándar, tanques de gas y tanques criogénicos, adaptados para industrias como alimentos y bebidas, química, minería, medicina y energía."
+      },
+      {
+        "question": "¿Ofrecen opciones de arrendamiento para tanques ISO?",
+        "answer": "Sí. Contamos con planes flexibles de arrendamiento a corto y largo plazo para diversos modelos de tanques ISO, según las necesidades de su proyecto."
+      },
+      {
+        "question": "¿Pueden ayudarnos con el mantenimiento y gestión de flotas de tanques?",
+        "answer": "Por supuesto. Brindamos servicios integrales de gestión de flotas y mantenimiento para asegurar el rendimiento óptimo y la seguridad de sus operaciones con tanques ISO."
+      },
+      {
+        "question": "¿En qué regiones operan?",
+        "answer": "Contamos con oficinas en Estados Unidos, México, Guatemala, Ecuador, Países Bajos, China y Japón, lo que nos permite atender a clientes en todo el mundo."
+      },
+      {
+        "question": "¿Venden repuestos y accesorios para tanques ISO?",
+        "answer": "Sí, ofrecemos repuestos y accesorios de alta calidad para tanques ISO, asegurando la continuidad operativa y minimizando tiempos de inactividad."
+      },
+      {
+        "question": "¿Pueden ayudarnos a elegir el tanque adecuado para nuestra aplicación?",
+        "answer": "Nuestros expertos brindan servicios de consultoría para ayudarle a seleccionar la solución de tanque ISO más eficiente y rentable según su industria y necesidades específicas."
+      }
+    ]
+  }
+}

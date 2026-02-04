@@ -2,19 +2,21 @@
 const navBarLinks = [
   { name: "Inicio", url: "/es" },
   { name: "Servicios", url: "/es/services" },
-
   { name: "Contacto", url: "/es/contact" },
 ];
 
 const footerLinks = [
   {
-    section: "",
+    section: "Empresa",
     links: [
+      { name: "Servicios", url: "/es/services" },
+      { name: "Productos", url: "/es/products" },
     ],
   },
   {
-    section: "",
+    section: "Soporte",
     links: [
+      { name: "Contacto", url: "/es/contact" },
     ],
   },
 ];
