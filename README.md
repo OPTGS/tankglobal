@@ -1,96 +1,79 @@
-### Tank Global website.
+# Tank Global Solutions Website
 
-### Features
+Corporate website for **Tank Global Solutions** - Over 20 years delivering reliable and innovative ISO tank solutions for operations, sales, leasing, and specialized consulting.
 
-* **Astro-Powered:** Utilize a modern static-site generation framework.
-* **Tailwind CSS:** Enjoy rapid UI development with a utility-first CSS framework.
-* **Preline UI:** Implement prebuilt UI components for added elegance.
-* **GSAP Integration:** Impress with professional and polished animations.
-* **Markdown Content Collections:** Organize and manage your content seamlessly.
-* **Starlight Documentation:** A sleek, user-friendly, full-featured documentation theme.
-* **Internationalization (i18n):** Integrates Astro’s internationalization features.
-* **SEO and Responsiveness:** Ensure your site is discoverable and accessible on any device.
+🌐 **Live Site:** [tankglobalsolution.com](https://tankglobalsolution.com)
 
+## Features
 
-### Installation
+- **Astro 5** - Modern static-site generation framework
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **Preline UI** - Prebuilt UI components
+- **GSAP & Lenis** - Smooth animations and scroll
+- **Starlight** - Documentation theme
+- **i18n** - English and Spanish support
+- **SEO optimized** - Meta tags, structured data, sitemap
 
-Start by installing the project dependencies. Open your terminal, navigate to the project's root directory, and execute:
+## Quick Start
 
 ```bash
+# Install dependencies
 npm install
-```
 
-This command will install all the necessary dependencies defined in the `package.json` file.
+# Start development server
+npm run dev
 
-### Development Commands
-
-With dependencies installed, you can utilize the following npm scripts to manage your project's development lifecycle:
-
-* `npm run dev`: Starts a local development server with hot reloading enabled.
-* `npm run preview`: Serves your build output locally for preview before deployment.
-* `npm run build`: Bundles your site into static files for production.
-
-For detailed help with Astro CLI commands, visit [Astro's documentation](https://docs.astro.build/en/reference/cli-reference/).
-
-## Deployment
-
-### Building Your Site
-
-Before deployment, you need to create a production build:
-
-```bash
+# Build for production
 npm run build
-```
 
-This creates a `dist/` directory with your built site (configurable via [outDir in Astro](https://docs.astro.build/en/reference/configuration-reference/#outdir)).
+# Preview production build
+npm run preview
+```
 
 ## Project Structure
 
-Tank Global website organizes modular components, content, and layouts to streamline development and content management.
-
-```md
-
-src/
-├── assets/               
-│   ├── scripts/          # JS scripts
-│   └── styles/           # CSS styles
-├── components/           # Reusable components
-│   ├── Meta.astro        # Meta component for SEO
-│   ├── sections/         # Components for various sections of the website
-│   ├── ThemeIcon.astro   # Component for toggling light/dark themes
-│   └── ui/               # UI components categorized by functionality
-├── content/              # Markdown files for blog posts, insights, products, and site configuration
-│   ├── blog/
-│   ├── docs/           
-│   ├── insights/         
-│   └── products/         
-├── data_files/           # Strings stored as JSON files
-├── images/               # Static image assets for use across the website
-├── layouts/              # Components defining layout templates
-│   └── MainLayout.astro  # The main wrapping layout for all pages
-├── pages/                # Astro files representing individual pages and website sections
-│   ├── 404.astro         # Custom 404 page
-│   ├── blog/   
-│   ├── es/               # Localized content
-│   ├── contact.astro     
-│   ├── index.astro       # The landing/home page
-│   ├── insights/         
-│   ├── products/         
-│   ├── robots.txt.ts     # Dynamically generates robots.txt
-│   └── services.astro
-├── utils/                # Shared utility functions and helpers
-└── content.config.ts     # Contains content collections configuration options
+```
+├── data/                 # CMS-editable content (JSON)
+│   ├── site.json         # Site configuration & SEO
+│   ├── navigation.json   # Navigation menus (EN/ES)
+│   ├── content/          # FAQs, features, testimonials
+│   ├── pages/            # Page content (home, services, contact)
+│   └── products/         # Product catalog
+├── public/               # Static assets
+└── src/
+    ├── components/       # Astro components
+    ├── content/          # Markdown content (blog, docs, products)
+    ├── data_files/       # Legacy data files
+    ├── images/           # Image assets
+    ├── layouts/          # Layout templates
+    ├── pages/            # Route pages
+    └── utils/            # Helper functions
 ```
 
-## Static Assets and Public Resources
+## Content Management
 
-Static files served directly to the browser are within the `public` directory at the root of the project.
+The `/data` folder contains JSON files designed for CMS integration (e.g., sitepins.com):
 
-```md
+- `site.json` - Global site settings, SEO, contact info
+- `navigation.json` - Navbar and footer links
+- `content/*.json` - FAQs, features, testimonials
+- `pages/*.json` - Page-specific content
+- `products/*.json` - Product catalog
 
-public/
-└── banner-pattern.svg
-    
+All content supports English (`en`) and Spanish (`es`) localization.
+
+## Deployment
+
+The site is deployed on Vercel. Push to `main` triggers automatic deployment.
+
+```bash
+npm run build  # Creates dist/ folder
 ```
 
+## License
 
+This project is based on [ScrewFast](https://github.com/mearashadowfax/ScrewFast), licensed under the [MIT License](LICENSE).
+
+---
+
+**Tank Global Solutions** - Solving all your tank needs.
