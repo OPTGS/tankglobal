@@ -1,0 +1,10 @@
+{
+  "content": "data",
+  "media": "src/images",
+  "public": "public",
+  "configs": [
+    "data/site.json"
+  ],
+  "custom-commit": false,
+  "arrangement": []
+}
